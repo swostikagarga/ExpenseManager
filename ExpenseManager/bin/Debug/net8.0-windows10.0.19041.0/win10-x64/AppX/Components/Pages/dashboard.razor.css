@@ -1,0 +1,45 @@
+/* Summary Section */
+#summary-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.summary-box {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ac81b5;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#search-sort-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+    #search-sort-section input {
+        width: 60%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+#transaction-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#transaction-dashboard th, #transaction-dashboard td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#transaction-dashboard th {
+    background-color: #ac81b5;
+}

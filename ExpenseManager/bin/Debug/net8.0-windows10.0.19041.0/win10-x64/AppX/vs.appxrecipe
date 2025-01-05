@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-23T01:52:29.400</Modified>
+      <Modified>2025-01-04T18:39:33.588</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-23T01:52:29.178</Modified>
+      <Modified>2025-01-04T11:14:12.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ExpenseManager.runtimeconfig.json">
       <PackagePath>ExpenseManager.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-23T01:52:28.793</Modified>
+      <Modified>2025-01-04T15:42:26.267</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ExpenseManager.dll">
       <PackagePath>ExpenseManager.dll</PackagePath>
-      <Modified>2024-12-23T01:52:27.605</Modified>
+      <Modified>2025-01-04T18:39:33.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ExpenseManager.exe</PackagePath>
-      <Modified>2024-12-23T01:52:27.629</Modified>
+      <Modified>2025-01-04T18:39:33.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -302,10 +302,6 @@
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-12-23T01:39:27.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\ExpenseManager.deps.json">
-      <PackagePath>ExpenseManager.deps.json</PackagePath>
-      <Modified>2024-12-23T01:52:28.652</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
       <Modified>2024-07-08T09:23:38.000</Modified>
@@ -342,13 +338,29 @@
       <PackagePath>Microsoft.AspNetCore.Metadata.dll</PackagePath>
       <Modified>2023-11-01T01:06:44.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.entityframeworkcore\9.0.0\lib\net8.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
+      <Modified>2024-10-29T09:57:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.entityframeworkcore.abstractions\9.0.0\lib\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+      <Modified>2024-10-29T09:57:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.caching.abstractions\9.0.0\lib\net8.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+      <Modified>2024-10-29T02:43:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.caching.memory\9.0.0\lib\net8.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+      <Modified>2024-10-29T02:49:34.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2023-10-31T14:59:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.configuration.abstractions\9.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
-      <Modified>2023-10-31T14:59:08.000</Modified>
+      <Modified>2024-10-29T02:43:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.configuration.binder\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Binder.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
@@ -362,13 +374,13 @@
       <PackagePath>Microsoft.Extensions.Configuration.Json.dll</PackagePath>
       <Modified>2023-10-31T14:59:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.dependencyinjection\9.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
-      <Modified>2023-10-31T14:59:00.000</Modified>
+      <Modified>2024-10-29T02:42:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
-      <Modified>2023-10-31T14:58:56.000</Modified>
+      <Modified>2024-10-29T02:41:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.fileproviders.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.FileProviders.Abstractions.dll</PackagePath>
@@ -390,25 +402,25 @@
       <PackagePath>Microsoft.Extensions.FileSystemGlobbing.dll</PackagePath>
       <Modified>2023-10-31T14:58:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.logging\9.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
-      <Modified>2023-10-31T14:59:24.000</Modified>
+      <Modified>2024-10-29T02:49:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.logging.abstractions\9.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
-      <Modified>2023-10-31T14:59:12.000</Modified>
+      <Modified>2024-10-29T02:48:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
       <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
       <Modified>2023-10-31T14:59:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.options\9.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
-      <Modified>2023-10-31T14:59:06.000</Modified>
+      <Modified>2024-10-29T02:43:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.primitives\9.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
-      <Modified>2023-10-31T14:58:52.000</Modified>
+      <Modified>2024-10-29T02:40:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.graphics.win2d\1.2.0\lib\net6.0-windows10.0.19041.0\Microsoft.Graphics.Canvas.Interop.dll">
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
@@ -510,9 +522,21 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-06-26T19:15:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.io.pipelines\8.0.0\lib\net8.0\System.IO.Pipelines.dll">
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.diagnostics.diagnosticsource\9.0.0\lib\net8.0\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2024-10-29T02:47:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.io.pipelines\9.0.0\lib\net8.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
-      <Modified>2023-10-31T14:59:26.000</Modified>
+      <Modified>2024-10-29T02:46:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.text.encodings.web\9.0.0\lib\net8.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2024-10-29T02:40:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.text.json\9.0.0\lib\net8.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2024-10-29T02:47:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.maui.controls.core\8.0.82\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
       <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
@@ -658,6 +682,346 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-06-25T19:48:44.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ExpenseManager.deps.json">
+      <PackagePath>ExpenseManager.deps.json</PackagePath>
+      <Modified>2025-01-04T15:42:26.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
+      <PackagePath>Humanizer.dll</PackagePath>
+      <Modified>2022-01-29T15:04:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.bcl.asyncinterfaces\7.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2022-10-18T16:14:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.build.locator\1.7.8\lib\net6.0\Microsoft.Build.Locator.dll">
+      <PackagePath>Microsoft.Build.Locator.dll</PackagePath>
+      <Modified>2024-03-13T18:40:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\Microsoft.CodeAnalysis.dll">
+      <PackagePath>Microsoft.CodeAnalysis.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\Microsoft.CodeAnalysis.CSharp.dll">
+      <PackagePath>Microsoft.CodeAnalysis.CSharp.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <PackagePath>Microsoft.CodeAnalysis.CSharp.Workspaces.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\Microsoft.CodeAnalysis.Workspaces.dll">
+      <PackagePath>Microsoft.CodeAnalysis.Workspaces.dll</PackagePath>
+      <Modified>2023-11-08T17:51:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll">
+      <PackagePath>Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll">
+      <PackagePath>Microsoft.CodeAnalysis.Workspaces.MSBuild.dll</PackagePath>
+      <Modified>2023-11-08T18:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.entityframeworkcore.design\9.0.0\lib\net8.0\Microsoft.EntityFrameworkCore.Design.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Design.dll</PackagePath>
+      <Modified>2024-10-29T09:58:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.entityframeworkcore.relational\9.0.0\lib\net8.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+      <Modified>2024-10-29T09:58:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.extensions.dependencymodel\9.0.0\lib\net8.0\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
+      <Modified>2024-10-29T02:47:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\mono.texttemplating\3.0.0\lib\net6.0\Mono.TextTemplating.dll">
+      <PackagePath>Mono.TextTemplating.dll</PackagePath>
+      <Modified>2024-09-03T21:57:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.codedom\6.0.0\lib\net6.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+      <Modified>2021-10-22T23:47:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.composition.attributedmodel\7.0.0\lib\net7.0\System.Composition.AttributedModel.dll">
+      <PackagePath>System.Composition.AttributedModel.dll</PackagePath>
+      <Modified>2022-10-18T16:15:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.composition.convention\7.0.0\lib\net7.0\System.Composition.Convention.dll">
+      <PackagePath>System.Composition.Convention.dll</PackagePath>
+      <Modified>2022-10-18T16:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.composition.hosting\7.0.0\lib\net7.0\System.Composition.Hosting.dll">
+      <PackagePath>System.Composition.Hosting.dll</PackagePath>
+      <Modified>2022-10-18T16:16:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.composition.runtime\7.0.0\lib\net7.0\System.Composition.Runtime.dll">
+      <PackagePath>System.Composition.Runtime.dll</PackagePath>
+      <Modified>2022-10-18T16:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\system.composition.typedparts\7.0.0\lib\net7.0\System.Composition.TypedParts.dll">
+      <PackagePath>System.Composition.TypedParts.dll</PackagePath>
+      <Modified>2022-10-18T16:16:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\cs\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>cs\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\de\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>de\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\es\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>es\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\fr\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>fr\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\it\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>it\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\ja\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>ja\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\ko\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>ko\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\pl\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>pl\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>pt-BR\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\ru\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>ru\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\tr\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>tr\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.common\4.8.0\lib\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.CodeAnalysis.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:46:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>cs\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>de\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>es\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>fr\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>it\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>ja\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>ko\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>pl\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>ru\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>tr\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp\4.8.0\lib\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\4.8.0\lib\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:56:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>cs\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:51:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>de\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:51:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>es\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:51:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>fr\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>it\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>ja\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>ko\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>pl\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>ru\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>tr\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.common\4.8.0\lib\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\4.8.0\lib\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll</PackagePath>
+      <Modified>2023-11-08T17:52:26.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\.nuget\packages\microsoft.maui.controls.compatibility\8.0.82\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
       <Modified>2024-08-26T17:14:24.000</Modified>
@@ -672,11 +1036,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\ExpenseManager.styles.css">
       <PackagePath>wwwroot\ExpenseManager.styles.css</PackagePath>
-      <Modified>2024-12-23T01:39:20.855</Modified>
+      <Modified>2025-01-04T15:42:22.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\ExpenseManager.bundle.scp.css">
       <PackagePath>wwwroot\ExpenseManager.bundle.scp.css</PackagePath>
-      <Modified>2024-12-23T01:39:20.855</Modified>
+      <Modified>2025-01-04T15:42:22.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -685,6 +1049,18 @@
     <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
       <Modified>2024-12-23T01:39:01.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\Components\Pages\Alert.razor.css">
+      <PackagePath>Components\Pages\Alert.razor.css</PackagePath>
+      <Modified>2025-01-04T04:59:18.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\Components\Pages\dashboard.razor.css">
+      <PackagePath>Components\Pages\dashboard.razor.css</PackagePath>
+      <Modified>2025-01-04T13:46:39.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\Components\Pages\transaction.razor.css">
+      <PackagePath>Components\Pages\transaction.razor.css</PackagePath>
+      <Modified>2025-01-04T15:42:21.449</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

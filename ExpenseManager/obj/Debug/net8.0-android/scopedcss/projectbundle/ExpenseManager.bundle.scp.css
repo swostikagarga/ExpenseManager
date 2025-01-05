@@ -178,3 +178,135 @@ main[b-8hvefc2f9p] {
         overflow-y: auto;
     }
 }
+/* /Components/Pages/Alert.razor.rz.scp.css */
+.alert-box[b-w2idnnxydi] {
+    background-color: grey; /* Background color */
+    color: white; /* Text color */
+    position: fixed; /* Position on the screen */
+    top: 20px; /* Position from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center align */
+    padding: 15px 30px; /* Padding for content */
+    border-radius: 5px; /* Rounded corners (optional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for hovering effect */
+    z-index: 1000; /* Ensure it appears above other content */
+    text-align: center; /* Center-align text */
+}
+/* /Components/Pages/dashboard.razor.rz.scp.css */
+/* Summary Section */
+#summary-section[b-mjtihy6666] {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.summary-box[b-mjtihy6666] {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ac81b5;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#search-sort-section[b-mjtihy6666] {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+    #search-sort-section input[b-mjtihy6666] {
+        width: 60%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+#transaction-dashboard table[b-mjtihy6666] {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#transaction-dashboard th[b-mjtihy6666], #transaction-dashboard td[b-mjtihy6666] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#transaction-dashboard th[b-mjtihy6666] {
+    background-color: #ac81b5;
+}
+/* /Components/Pages/transaction.razor.rz.scp.css */
+h3[b-f2rguaeu2i] {
+    background-color: #6a4472;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* Add spacing between input fields */
+div[b-f2rguaeu2i] {
+    margin-bottom: 1.5rem;
+}
+
+/* Style the transaction form */
+form[b-f2rguaeu2i] {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-block-color: gray;
+}
+
+/* Style the submit button */
+button[b-f2rguaeu2i] {
+    background-color: #6a4472;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+    button:hover[b-f2rguaeu2i] {
+        background-color: #808080;
+    }
+
+/* Style the transaction details box */
+#transaction-box[b-f2rguaeu2i] {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    #transaction-box table[b-f2rguaeu2i] {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    #transaction-box th[b-f2rguaeu2i], #transaction-box td[b-f2rguaeu2i] {
+        border: 1px solid #ddd;
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    #transaction-box th[b-f2rguaeu2i] {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
