@@ -1,1 +1,0 @@
-C:\Users\pc\source\repos\ExpenseManager\ExpenseManager\ExpenseManager.csproj;x64
