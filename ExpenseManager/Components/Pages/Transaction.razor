@@ -1,0 +1,149 @@
+﻿@page "/transaction"
+@using System.Text.Json
+@inject NavigationManager NavigationManager
+@using System.IO
+
+<EditForm Model="transaction" OnValidSubmit="AddTransaction">
+    <div class="form-container">
+        <h3>Add Transaction</h3>
+
+        <!-- Transaction ID Field -->
+        <div class="form-group">
+            <label>Transaction ID:</label>
+            <InputText @bind-Value="transaction.TransactionId" class="form-control" />
+        </div>
+
+        <!-- Name Field -->
+        <div class="form-group">
+            <label>Name:</label>
+            <InputText @bind-Value="transaction.Name" class="form-control" />
+        </div>
+
+        <!-- Amount Field -->
+        <div class="form-group">
+            <label>Amount:</label>
+            <InputNumber @bind-Value="transaction.Amount" class="form-control" />
+        </div>
+
+        <!-- Transaction Type Field -->
+        <div class="form-group">
+            <label>Transaction Type:</label>
+            <InputSelect @bind-Value="transaction.TransactionType" class="form-control">
+                <option value="Debit">Debit</option>
+                <option value="Credit">Credit</option>
+            </InputSelect>
+        </div>
+
+        <!-- Notes Field -->
+        <div class="form-group">
+            <label>Notes:</label>
+            <InputText @bind-Value="transaction.Notes" class="form-control" />
+        </div>
+
+        <!-- Tags Field -->
+        <div class="form-group">
+            <label>Tags:</label>
+            <InputSelect @bind-Value="transaction.Tag" class="form-control">
+                <option value="">Select a Tag</option>
+                <option value="Yearly">Yearly</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Food">Food</option>
+                <option value="Drinks">Drinks</option>
+                <option value="Clothes">Clothes</option>
+                <option value="Gadgets">Gadgets</option>
+                <option value="Miscellaneous">Miscellaneous</option>
+                <option value="Fuel">Fuel</option>
+                <option value="Rent">Rent</option>
+                <option value="EMI">EMI</option>
+                <option value="Party">Party</option>
+            </InputSelect>
+        </div>
+
+        <!-- Date Field -->
+        <div class="form-group">
+            <label>Date:</label>
+            <InputDate @bind-Value="transaction.Date" class="form-control" />
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit" class="btn-submit">Submit</button>
+        </div>
+
+        <!-- Error Message -->
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <p class="error-message">@errorMessage</p>
+        }
+    </div>
+</EditForm>
+
+
+@code {
+    private TransactionModel transaction = new TransactionModel();
+    private List<TransactionModel> transactions = new List<TransactionModel>();
+    private string errorMessage = string.Empty;
+
+    // Total calculations
+    private decimal TotalIncome => transactions.Where(t => t.TransactionType == "Credit").Sum(t => t.Amount);
+    private decimal TotalExpense => transactions.Where(t => t.TransactionType == "Debit").Sum(t => t.Amount);
+    private decimal CurrentBalance => TotalIncome - TotalExpense;
+    private decimal Debt => TotalExpense > TotalIncome ? TotalExpense - TotalIncome : 0;
+
+    private void AddTransaction()
+    {
+        // Reset the error message
+        errorMessage = string.Empty;
+
+        // Check if the transaction is a Debit and ensure sufficient balance
+        if (transaction.TransactionType == "Debit" && transaction.Amount > CurrentBalance)
+        {
+            errorMessage = "Insufficient balance for this transaction.";
+            return; // Stop submission
+        }
+
+        // Ensure only valid data is added
+        if (string.IsNullOrWhiteSpace(transaction.Name) || string.IsNullOrWhiteSpace(transaction.TransactionId))
+        {
+            errorMessage = "Please fill all required fields.";
+            return; // Stop submission
+        }
+
+        transaction.Date = transaction.Date.Date; // Ensure we only store the date
+        transactions.Add(transaction);
+        transaction = new TransactionModel(); // Reset the form
+        SaveTransactionsToFile(); // Save to file
+
+        // Redirect to dashboard
+        NavigationManager.NavigateTo("/dashboard");
+    }
+
+    private void SaveTransactionsToFile()
+    {
+        var json = JsonSerializer.Serialize(transactions);
+        var path = Path.Combine(FileSystem.AppDataDirectory, "transactions.json");
+        Directory.CreateDirectory(Path.GetDirectoryName(path)); // Ensure directory exists
+        File.WriteAllText(path, json);
+    }
+
+    protected override void OnInitialized()
+    {
+        var path = Path.Combine(FileSystem.AppDataDirectory, "transactions.json");
+        if (File.Exists(path))
+        {
+            var json = File.ReadAllText(path);
+            transactions = JsonSerializer.Deserialize<List<TransactionModel>>(json) ?? new List<TransactionModel>();
+        }
+    }
+
+    public class TransactionModel
+    {
+        public string TransactionId { get; set; }
+        public string Name { get; set; }
+        public decimal Amount { get; set; }
+        public string TransactionType { get; set; } // Debit or Credit
+        public string Notes { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
+        public string Tag { get; set; } // Predefined tags
+    }
+}

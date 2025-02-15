@@ -1,0 +1,231 @@
+﻿@page "/addtransaction"
+@using System.Text.Json
+@inject NavigationManager NavigationManager
+@using System.IO
+
+<EditForm Model="transaction" OnValidSubmit="AddTransactions">
+    <div class="form-container">
+        <h3>Add Transaction</h3>
+
+        <!-- Success Message -->
+        @if (!string.IsNullOrEmpty(successMessage))
+        {
+            <div class="alert alert-success" style="margin-bottom: 20px; text-align: center;">
+                @successMessage
+            </div>
+        }
+
+        <!-- Error Message -->
+        @if (!string.IsNullOrEmpty(errorMessage))
+        {
+            <div class="alert alert-danger" style="margin-bottom: 20px; text-align: center;">
+                @errorMessage
+            </div>
+        }
+
+        <!-- Transaction ID Field -->
+        <div class="form-group">
+            <label>Transaction ID:</label>
+            <InputText @bind-Value="transaction.TransactionId" class="form-control" />
+        </div>
+
+        <!-- Name Field -->
+        <div class="form-group">
+            <label>Name:</label>
+            <InputText @bind-Value="transaction.Name" class="form-control" />
+        </div>
+
+        <!-- Amount Field -->
+        <div class="form-group">
+            <label>Amount:</label>
+            <InputNumber @bind-Value="transaction.Amount" class="form-control" />
+        </div>
+
+        <!-- Transaction Type Field -->
+        <div class="form-group">
+            <label>Transaction Type:</label>
+            <InputSelect @bind-Value="transaction.TransactionType" class="form-control">
+                <option value="">Select Type</option>
+                <option value="Debit">Debit</option>
+                <option value="Credit">Credit</option>
+                <option value="Debt">Debt</option> <!-- Added Debt option -->
+            </InputSelect>
+        </div>
+
+        <!-- Notes Field -->
+        <div class="form-group">
+            <label>Notes:</label>
+            <InputText @bind-Value="transaction.Notes" class="form-control" />
+        </div>
+
+        <!-- Tags Field -->
+        <div class="form-group">
+            <label>Tags:</label>
+            <InputSelect @bind-Value="transaction.Tag" class="form-control" @onchange="OnTagChange">
+                <option value="">Select a Tag</option>
+                <option value="Yearly">Yearly</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Food">Food</option>
+                <option value="Drinks">Drinks</option>
+                <option value="Clothes">Clothes</option>
+                <option value="Gadgets">Gadgets</option>
+                <option value="Miscellaneous">Miscellaneous</option>
+                <option value="Fuel">Fuel</option>
+                <option value="Rent">Rent</option>
+                <option value="EMI">EMI</option>
+                <option value="Party">Party</option>
+                <option value="Custom">Custom Tag</option> <!-- Option for custom tag -->
+            </InputSelect>
+
+            <!-- Custom Tag Input -->
+            @if (transaction.Tag == "Custom")
+            {
+                <InputText @bind-Value="customTag" class="form-control" placeholder="Enter your custom tag" />
+            }
+        </div>
+
+        <!-- Date Field -->
+        <div class="form-group">
+            <label>Date:</label>
+            <InputDate @bind-Value="transaction.Date" class="form-control" />
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <button type="submit" class="btn-submit">Submit</button>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    private TransactionModel transaction = new TransactionModel();
+    private List<TransactionModel> transactions = new List<TransactionModel>();
+    private string successMessage = string.Empty;
+    private string errorMessage = string.Empty;
+    private string customTag = string.Empty;
+
+    // Calculate Total Income (sum of all Credit transactions)
+    private decimal TotalIncome
+    {
+        get
+        {
+            decimal totalIncome = transactions
+                .Where(t => t.TransactionType == "Credit")
+                .Sum(t => t.Amount); // Add Credit transactions
+
+            decimal totalDebit = transactions
+                .Where(t => t.TransactionType == "Debit" || t.TransactionType == "Debt")
+                .Sum(t => t.Amount); // Subtract Debit or Debt transactions
+
+            return totalIncome - totalDebit;
+        }
+    }
+
+    private void AddTransactions()
+    {
+        // Reset messages
+        successMessage = string.Empty;
+        errorMessage = string.Empty;
+
+        // Validation logic
+        if (string.IsNullOrWhiteSpace(transaction.Name))
+        {
+            errorMessage = "Please enter a transaction name.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(transaction.TransactionType))
+        {
+            errorMessage = "Please select a transaction type.";
+            return;
+        }
+
+        if (transaction.Amount < 0)
+        {
+            errorMessage = "Amount cannot be negative.";
+            return;
+        }
+
+        // Validate Debit and Debt Transaction for Insufficient Balance
+        if (transaction.TransactionType == "Debit" || transaction.TransactionType == "Debt")
+        {
+            decimal totalIncome = TotalIncome; // Directly use TotalIncome property here
+
+            if (transaction.Amount > totalIncome)
+            {
+                errorMessage = $"Insufficient balance for this transaction. Available balance: {totalIncome:C}";
+                return;
+            }
+        }
+
+        if (transaction.Tag == "Custom" && string.IsNullOrWhiteSpace(customTag))
+        {
+            errorMessage = "Please enter a custom tag.";
+            return;
+        }
+        else if (transaction.Tag == "Custom")
+        {
+            transaction.Tag = customTag;
+        }
+
+        if (transactions.Any(t => t.TransactionId == transaction.TransactionId))
+        {
+            errorMessage = $"Transaction ID '{transaction.TransactionId}' already exists. Please use a unique ID.";
+            return;
+        }
+
+        // Add the transaction
+        transactions.Add(transaction);
+
+        // Save to file
+        SaveTransactionsToFile();
+
+        // Success message
+        successMessage = "Transaction added successfully!";
+
+        // Clear the form
+        transaction = new TransactionModel();
+        customTag = string.Empty;
+
+        // Redirect to transaction list page after a delay
+        Task.Delay(2000).ContinueWith(_ => NavigationManager.NavigateTo("/transaction"));
+    }
+
+
+    private void SaveTransactionsToFile()
+    {
+        var json = JsonSerializer.Serialize(transactions);
+        var path = Path.Combine(FileSystem.AppDataDirectory, "transactions.json");
+        Directory.CreateDirectory(Path.GetDirectoryName(path));
+        File.WriteAllText(path, json);
+    }
+
+    private void OnTagChange(ChangeEventArgs e)
+    {
+        if (e.Value?.ToString() != "Custom")
+        {
+            customTag = string.Empty;
+        }
+    }
+
+    protected override void OnInitialized()
+    {
+        var path = Path.Combine(FileSystem.AppDataDirectory, "transactions.json");
+        if (File.Exists(path))
+        {
+            var json = File.ReadAllText(path);
+            transactions = JsonSerializer.Deserialize<List<TransactionModel>>(json) ?? new List<TransactionModel>();
+        }
+    }
+
+    public class TransactionModel
+    {
+        public string TransactionId { get; set; }
+        public string Name { get; set; }
+        public decimal Amount { get; set; }
+        public string TransactionType { get; set; }
+        public string Notes { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
+        public string Tag { get; set; }
+    }
+}

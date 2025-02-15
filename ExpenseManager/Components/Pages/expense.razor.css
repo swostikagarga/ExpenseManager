@@ -1,0 +1,59 @@
+
+
+.total-income-box {
+    background-color: #c4a3cb;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 1.5rem;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+    .search-filter input {
+        margin-right: 10px;
+        padding: 8px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+.btn-sort {
+    padding: 8px 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    .btn-sort:hover {
+        background-color: #916b99;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #c4a3cb;
+}
+
+.form-control {
+    padding: 8px;
+    width: 100%;
+}
+
+

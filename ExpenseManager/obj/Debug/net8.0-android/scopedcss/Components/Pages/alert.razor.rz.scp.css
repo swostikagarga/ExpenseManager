@@ -1,0 +1,13 @@
+.alert-box[b-w2idnnxydi] {
+    background-color: grey; /* Background color */
+    color: white; /* Text color */
+    position: fixed; /* Position on the screen */
+    top: 20px; /* Position from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to center align */
+    padding: 15px 30px; /* Padding for content */
+    border-radius: 5px; /* Rounded corners (optional) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for hovering effect */
+    z-index: 1000; /* Ensure it appears above other content */
+    text-align: center; /* Center-align text */
+}

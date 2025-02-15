@@ -1,0 +1,797 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\globalstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\globalstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\incomedebtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\incomedebtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\dashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\platforms\\maccatalyst\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\platforms\\ios\\appdelegate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\income.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\income.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\income.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\income.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\transaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ExpenseManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\expensemanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\expensemanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\debt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\debt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\alert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\alert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\addtransaction.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\exit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\exit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\dashboard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\dashboard.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\transaction.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\transaction.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\debt.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\debt.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\income.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\income.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\expense.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\expense.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\addtransaction.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\addtransaction.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\expense.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\expense.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\updateincomeandexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\updateincomeandexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\newfolder\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\newfolder\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\resources\\splash\\splash.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\components\\layout\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|c:\\users\\pc\\source\\repos\\expensemanager\\expensemanager\\platforms\\maccatalyst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D05765CD-B03A-42B0-847F-557C7B1E4634}|ExpenseManager\\ExpenseManager.csproj|solutionrelative:expensemanager\\platforms\\maccatalyst\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\downloads\\Roshan_Gautam_22015974\\Roshan_Gautam_22015974\\Development\\Cw1CafeManagement_22015974\\Cw1CafeManagement\\Pages\\Login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalState.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\GlobalState.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\GlobalState.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\GlobalState.cs",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\GlobalState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T06:30:41.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IncomeDebtService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\IncomeDebtService.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\IncomeDebtService.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\IncomeDebtService.cs",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\IncomeDebtService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:04:33.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T08:38:19.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T06:13:40.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\MauiProgram.cs",
+              "RelativeToolTip": "ExpenseManager\\MauiProgram.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T07:36:30.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Dashboard.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Dashboard.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Dashboard.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Dashboard.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T05:17:33.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\User.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\User.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\User.cs",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:01:32.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "ExpenseManager\\Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:45:44.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-23T01:39:05.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "ExpenseManager\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:12:41.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\App.xaml",
+              "RelativeDocumentMoniker": "ExpenseManager\\App.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\App.xaml",
+              "RelativeToolTip": "ExpenseManager\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T10:03:13.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Platforms\\iOS\\AppDelegate.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\iOS\\AppDelegate.cs",
+              "RelativeToolTip": "ExpenseManager\\Platforms\\iOS\\AppDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:12:52.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDelegate.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "RelativeToolTip": "ExpenseManager\\Platforms\\MacCatalyst\\AppDelegate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T05:12:59.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\App.xaml.cs",
+              "RelativeToolTip": "ExpenseManager\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T10:03:16.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Routes.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T06:04:27.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "income.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\income.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\income.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\income.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\income.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-14T11:23:05.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Income.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Income.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Income.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Income.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Income.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T05:18:18.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:22:17.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\MainPage.xaml",
+              "RelativeDocumentMoniker": "ExpenseManager\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\MainPage.xaml",
+              "RelativeToolTip": "ExpenseManager\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T17:45:09.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\_Imports.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T07:59:44.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Transaction.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Transaction.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Transaction.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Transaction.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Transaction.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T11:03:14.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\MainPage.xaml.cs",
+              "RelativeToolTip": "ExpenseManager\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T17:44:28.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "ExpenseManager\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:42:03.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExpenseManager.csproj",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\ExpenseManager.csproj",
+              "RelativeDocumentMoniker": "ExpenseManager\\ExpenseManager.csproj",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\ExpenseManager.csproj",
+              "RelativeToolTip": "ExpenseManager\\ExpenseManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-04T08:11:08.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ExpenseManager\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ExpenseManager\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-15T08:02:22.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Debt.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Debt.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Debt.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Debt.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Debt.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T05:18:50.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T05:29:20.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Alert.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Alert.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Alert.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Alert.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Alert.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T12:40:38.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\TransactionService.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\TransactionService.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\TransactionService.cs",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\TransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T06:14:28.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddTransaction.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\AddTransaction.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\AddTransaction.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\AddTransaction.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\AddTransaction.razor",
+              "ViewState": "AgIAALQAAAAAAAAAAAApwMYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-06T01:51:43.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "expense.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\expense.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\expense.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\expense.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\expense.razor.css",
+              "ViewState": "AgIAABgAAAAAAAAAAIBpwDIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-15T06:59:55.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "transaction.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\transaction.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\transaction.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\transaction.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\transaction.razor.css",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAcwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-04T11:13:56.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Exit.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Exit.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Exit.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Exit.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Exit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T05:19:26.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "dashboard.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\dashboard.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\dashboard.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\dashboard.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\dashboard.razor.css",
+              "ViewState": "AgIAAA8AAAAAAAAAAMBtwB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-04T07:26:04.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "debt.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\debt.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\debt.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\debt.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\debt.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-13T11:18:08.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "income.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\income.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\income.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\income.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\income.razor.css",
+              "ViewState": "AgIAABsAAAAAAAAAAIBpwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-14T11:23:34.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "addtransaction.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\addtransaction.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\addtransaction.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\addtransaction.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\addtransaction.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-13T19:53:36.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Expense.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Expense.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Expense.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Expense.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Expense.razor",
+              "ViewState": "AgIAAGkAAAAAAAAAAMBtwHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T05:18:33.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "ExpenseManager\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T11:03:56.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateIncomeAndExpense.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\UpdateIncomeAndExpense.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\UpdateIncomeAndExpense.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\UpdateIncomeAndExpense.cs",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\UpdateIncomeAndExpense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:12:51.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "transaction.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\NewFolder\\transaction.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\NewFolder\\transaction.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\NewFolder\\transaction.cs",
+              "RelativeToolTip": "ExpenseManager\\Components\\NewFolder\\transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T10:26:24.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "splash.svg",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Resources\\Splash\\splash.svg",
+              "RelativeDocumentMoniker": "ExpenseManager\\Resources\\Splash\\splash.svg",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Resources\\Splash\\splash.svg",
+              "RelativeToolTip": "ExpenseManager\\Resources\\Splash\\splash.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAT2SURBVEhLtVZ9bBNlHH7uev24dutGyzpG91XZQAaywRwoyARBhUQJ4HAhQ000DKf/yLboP4Z/xJgQJwgBImwJ6uYfzKmIkmim4EwkRFjHhhsCA7fC2LotW7f1u3fn\u002B769knaDhJj4pM/93rv7vc/zfl/xv0JRFE4tJqClpeUICVW0THJoYHF6OY5HKyoq3mIvHwbEgNR5ODidTqW5uVlpamqijZoBXo33BanPKFPKpCzLpExIoyxBkiTcvHkTZWVl9FlVfX39DJP7GlBRFgl9ISLkcSI8eBzS7UIE2mdj6lcRvj8KoAT67uWWl5dTw6qDBw8mmMyYA/Our4SaEmM4MmcBIPVjfdZJFCRdhjh4A3IoAo3tdcj8YvCaAIJ/H0Jr6ENs27YN4XAYwWAQDQ0NMJlMR3fu3MnmJMFgTvW3jjRLSn2RY/Yzzy1Lx2rLPswNN2D8dw3OK1vRjbUwZ5TgjVW5EHgOw5\u002Bno8fRDJfLxcRDoRByc3MxMDCAyspKpi0wZYI51d/l2FKTTj9bujh/Q54HK/QVSBpvRd\u002BFNehctAddwuO4MTSFW3/dxt2xKex5cRF0WRtQXLyMifoDfogGEenp6WhsbFRV1Tmgw2JNTT6xvvSx\u002BeWPunSl\u002Bq1IutaKC6dLsVf6GE0XU\u002BF2jSPbZsbCJQ50eHh88H03tPmvQjQakZmZifx5\u002BbDb7TCS\u002B9i8UDADqzXlhYU5tryNeW6hiN8BbWcXLndshG37D/hsexHqNuejMEnCUHc/zDot0uxpcLr96OWX0RVBFMgK42QqxTDDINkobN5SLFieFCs5obcHl50rUfTmGeRYjSwpw2zAaysyMTY\u002BiRReC17QQDAZ8XX7AHvPQPesKkyXcQxsDrJn6UtWW/eLxonz6Ol7BfusuzF2\u002BALCZJ3T1kQpk\u002BEwIaABRK0GilaLK3dGmCjrA7nEVkx8D5jBrhUXszPlLzlX61KcW/kRlhhs0Ur0JbmwsmokBcm\u002B8AJh0kopIoG2lSMJHMli\u002BQQJBoq3YLV37JDoOatXTq06zY1pZiu/nbnEyZEwzaQ/VpVVIqTdp/dU8AmHhYmzE43lRZFo4BvapLk7qjkl7Q65pVRdKCRNCiGv\u002BafqdQgTEybAUqMtjN5Tw\u002BiQsKfqM04dpHgDXpkYfcpzVT/xs1Q2fL1/lB48JlvOXNR\u002B003G2IMIOYO8ZAd3353AOyc7sfZAG9Z80oZ1n7ah2XmHiVBBKh4TTuiBz8UV6FLkRmeHZ7FuFLOSjQajPS8bwYkp7D3bh\u002BFhD0SdBmZzEhwL8lEyn4d7ZAKTvb3YUpjBWs9mgIjGZBMM5AAky6bw29k1UzZ9IPLLlQ7ZYZ\u002BXY0pPS4ajaCEeUVdfiEyoa8QDz9AoImOj2P9SITTkuLin\u002BgDwHI8f3V/gvf66l91Z6HyeG7/aPtjVgZ72q/iz/Roudf2DK5030Nt1HZ5b/ZgV9uJweRHybCZmHG236hILcT3gOUF5l9Niw\u002B0DUE6kvt/WaKw8s1wcOrfKboLFPwntyCCylACWWwXUPJ2D\u002Bh1LkW2JHgfRKVXBRKPC8Qb3BflwXCRJSjAYUAKUAUq/EvBT\u002Blj0k\u002Bj3Efq9ii8uUtTV1d1zeNAHp5hGnU4PPaWe0gC9gVJk0UCiQSQ0GCHGRbU\u002BixQJvYzh2LFjR0hSFU2kZJtLLU8nxfQywdHa2tqH/xPw3wH8C2\u002BS5E7KNyxKAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-01-15T08:23:35.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-14T10:29:02.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "ExpenseManager\\Components\\Layout\\MainLayout.razor.css",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Components\\Layout\\MainLayout.razor.css",
+              "RelativeToolTip": "ExpenseManager\\Components\\Layout\\MainLayout.razor.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-06T01:40:35.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\MacCatalyst\\Program.cs",
+              "RelativeDocumentMoniker": "ExpenseManager\\Platforms\\MacCatalyst\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\Platforms\\MacCatalyst\\Program.cs",
+              "RelativeToolTip": "ExpenseManager\\Platforms\\MacCatalyst\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:17:13.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\downloads\\Roshan_Gautam_22015974\\Roshan_Gautam_22015974\\Development\\Cw1CafeManagement_22015974\\Cw1CafeManagement\\Pages\\Login.razor",
+              "ToolTip": "D:\\downloads\\Roshan_Gautam_22015974\\Roshan_Gautam_22015974\\Development\\Cw1CafeManagement_22015974\\Cw1CafeManagement\\Pages\\Login.razor",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T07:05:20.051Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

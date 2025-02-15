@@ -1,0 +1,110 @@
+/* General Styling */
+body[b-mjtihy6666] {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard Title */
+h3[b-mjtihy6666] {
+    text-align: left;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 20px;
+   
+}
+
+/* Summary Section */
+#summary-section[b-mjtihy6666] {
+    display: flex;
+    justify-content: center; /* Center align the boxes */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    gap: 20px; /* Space between boxes */
+    margin: 20px auto; /* Center alignment with margins */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Fixed width to ensure wrapping */
+}
+
+.summary-box[b-mjtihy6666] {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px; /* Fixed width for consistent layout */
+    text-align: center;
+}
+
+    .summary-box p[b-mjtihy6666] {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        padding: 5px;
+        border: 1px solid #ddd;
+        background-color: #f9f9f9;
+        border-radius: 4px;
+        display: inline-block;
+    }
+
+/* Search and Filter Section */
+.search-filter[b-mjtihy6666] {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.form-control[b-mjtihy6666] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.btn-sort[b-mjtihy6666] {
+    padding: 10px 15px;
+    background-color: #755183;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-sort:hover[b-mjtihy6666] {
+        background-color: #af97ba;
+    }
+
+/* Table Styling */
+table[b-mjtihy6666] {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    table th[b-mjtihy6666],
+    table td[b-mjtihy6666] {
+        padding: 10px;
+        text-align: center;
+        border: 1px solid #ddd;
+    }
+
+    table th[b-mjtihy6666] {
+        background-color: #af97ba;
+        color: black;
+        font-size: 16px;
+    }
+
+    table tbody tr:nth-child(even)[b-mjtihy6666] {
+        background-color: #f9f9f9;
+    }

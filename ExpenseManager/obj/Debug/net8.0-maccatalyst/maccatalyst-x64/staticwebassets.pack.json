@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\ExpenseManager.styles.css",
+      "PackagePath": "staticwebassets\\ExpenseManager.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\pc\\source\\repos\\ExpenseManager\\ExpenseManager\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.ExpenseManager.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.build.ExpenseManager.props",
+      "PackagePath": "build\\ExpenseManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildMultiTargeting.ExpenseManager.props",
+      "PackagePath": "buildMultiTargeting\\ExpenseManager.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildTransitive.ExpenseManager.props",
+      "PackagePath": "buildTransitive\\ExpenseManager.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

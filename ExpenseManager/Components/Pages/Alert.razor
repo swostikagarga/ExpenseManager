@@ -1,0 +1,11 @@
+﻿@page "/alert"
+
+<div class="alert-box" role="alert">
+    @Message
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment? Message { get; set; }
+
+}
